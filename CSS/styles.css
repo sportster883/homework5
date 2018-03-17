@@ -1,0 +1,313 @@
+
+body {
+  font-family: 'Pathway Gothic One';
+  background: url(../IMG/Ocean_Beach.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  }
+
+/*DROPDOWN MENU*/
+
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0px;
+  align-items: center;
+  list-style: none;
+  margin-bottom: 39px;
+}
+
+header a {
+  color: #fff;
+  font-size: 25px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+header a {
+  display: block;
+  padding: 15px;
+  color: #fff;
+  font-size: 25px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+header a:hover {
+    color: #003366;
+    background-color: #fff;
+}
+
+.menu-item {
+  position: relative;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  list-style: none;
+  padding: 10px;
+  right: -17px;
+  text-align: center;
+}
+
+.menu-item:hover > .submenu {
+  display: block;
+  /*color: none;*/
+}
+
+header a {
+  display: block;
+  padding: 10px;
+  color: #003366;
+  font-size: 25px;
+  border-radius: 7px;
+}
+
+header h1 {
+  width: 110px;
+  height: 110px;
+  padding: 5px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+header h1 {
+ 	font-family: 'Pathway Gothic One';
+ 	text-transform: uppercase;
+ 	font-size: 40px;
+ 	line-height: 35px;
+ 	transition: all 1.5s;
+}
+
+header h1:hover {
+	color: #fff;
+	background-color: #000;
+	transform: rotateY(720deg);
+}
+
+.menu-item > journey.li-no-hover:hover {
+    background-color: transparent;
+}
+
+/*MAIN*/
+
+.main-block {
+  position: relative;
+  max-width: 1024px;
+  padding: 20px;
+  margin-top: 30px;
+  padding-bottom: 90px;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  background-size: cover;
+}
+.main-block img {
+  width: 100%;
+  }
+
+.main-title {
+  display: block;
+  position: relative;
+  text-transform: uppercase;
+  text-align: left;
+  line-height: 0;
+  /*margin: 0 auto;*/
+  padding: 0 auto;
+  }
+
+.places {
+  display: block;
+  position: absolute;
+  bottom: 405px;
+  padding-left: 37px;
+  width: 250px;
+  font-size: 25px;
+  background-color: #fff;
+  color: #003366;
+  }
+
+.worth {
+  display: block;
+  padding-top: -50px;
+  padding-left: 62px;
+  position: absolute;
+  top:-410px;
+  font-size: 35px;
+  height: 55px;
+  font-size: 30px;
+  width:267px;
+  background-color: #0053ff;
+  color: #fff;
+}
+
+.circle {
+      display: block;
+      position: absolute;
+      top: 442px;
+      left: 59px;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      text-align: center;
+      background-color: #0053ff;
+    }
+
+.left {
+      display: block;
+      position: absolute;
+      font-size: 300%;
+      margin-left: 5px;
+      color: #fff;
+      margin-top: 20px;
+          }
+
+.right {
+      display: inline-block;
+      position: absolute;
+      font-size: 300%;
+      color: #fff;
+      margin-left: -2px;
+      vertical-align: middle;
+      margin-top: 20px;
+    }
+
+.destinations h2 {
+  display: flex;
+  margin-top: 20px;
+  text-transform: uppercase;
+  margin-left: 35px;
+  color: #003366;
+  background-color: #fff;
+  padding: 0px;
+
+}
+
+.destinations .cards {
+  padding: 3px;
+  background-color: #fff;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.cards > div {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background-color: #000;
+  color: #ff0;
+  overflow: hidden;
+}
+
+.cards > div > div {
+  position: absolute;
+  top: 0;
+  left: -60;
+  width: 95%;
+  height: 100%;
+  background-color: #193149;
+  transform: translateX(-100%);
+  opacity: 0.85;
+  transition: all 0.7s;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.cards > div > div p {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+
+.cards > div > div button {
+  position: absolute;
+  bottom: 1px;
+  right: -299px;
+}
+
+.cards > div:hover > div {
+  display: block;
+  opacity: 0.85;
+  transform: translateX(0);
+  background-color: #193149;
+}
+
+.Venice {
+  background-image: url('../IMG/venice-canal-gondola-GettyImages-510570992.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  order:1;
+  }
+
+.Paris {
+  background-image: url('../IMG/eiffel-tower.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  order:2;
+  }
+
+.New-York {
+  background-image: url('../IMG/times-square.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  order:3;
+  }
+
+.buttom-top {
+    position: fixed;
+    background-color: #0053ff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    bottom: 100px;
+    top: 856px;
+    right: 13px;
+    text-decoration: none;
+  }
+
+.buttom-top:before {
+    content: '\2191';
+    position: relative;
+    font-size: 17px;
+    color: #fff;
+    left: 11px;
+    top: 4px;
+  }
+.topbutton {
+  width:100px;
+  border:2px solid #ccc;
+  background:#f7f7f7;
+  text-align:center;
+  padding:10px;
+  position:fixed;
+  bottom:50px;
+  right:50px;
+  cursor:pointer;
+  color:#333;
+  font-size:12px;
+  border-radius: 5px;
+  }
